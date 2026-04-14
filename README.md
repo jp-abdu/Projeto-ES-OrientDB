@@ -17,10 +17,12 @@ Foram analisadas **2.500 classes Java** com métricas de complexidade, acoplamen
 ## Estrutura do repositório
 
 ```
-├── data/
+├── dataset/
 │   ├── orientdb-Class.csv       # Dataset principal (2.500 classes)
+│   ├── orientdb-Class.csv.arff
 │   └── orientdb-File.csv        # Dataset complementar (2.013 arquivos)
-├── figures/
+│   └── orientdb-File.csv.arff
+├── figuras/
 │   ├── fig1_histogramas.pdf
 │   ├── fig2_boxplots.pdf
 │   ├── fig3_correlacao.pdf
@@ -29,9 +31,8 @@ Foram analisadas **2.500 classes Java** com métricas de complexidade, acoplamen
 │   ├── fig6_file_metrics.pdf
 │   ├── fig7_qqplots.pdf
 │   └── fig8_regressao.pdf
-├── analise_orientdb.R           # Script R com toda a análise
-├── main.tex                     # Artigo em LaTeX (template SBC)
-├── referencias.bib              # Referências bibliográficas
+├── codigo_R/
+│   └── projeto_analise_orientdb.R           # Script R com toda a análise
 └── README.md
 ```
 
