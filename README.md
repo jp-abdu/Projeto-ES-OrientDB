@@ -55,7 +55,7 @@ Foram analisadas **2.500 classes Java** com métricas de complexidade, acoplamen
 
 1. Abra o RStudio
 2. Coloque os arquivos `.csv` na mesma pasta do script
-3. Execute `analise_orientdb.R`
+3. Execute `projeto_analise_orientdb.R`
 
 Os pacotes necessários são instalados automaticamente na primeira execução:
 `PerformanceAnalytics`, `ggplot2`, `dplyr`, `tidyr`, `nortest`, `corrplot`
